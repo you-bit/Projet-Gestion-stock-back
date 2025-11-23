@@ -2,7 +2,7 @@
 ├── 📂 src
 │   ├── 📂 main
 │   │   ├── 📂 java
-│   │   │   └── com/gestionstock
+│   │   │   └── com/stock
 │   │   │       ├── 📂 model        # Entités métier
 │   │   │       │   ├── 📂 utilisateur
 │   │   │       │   │   ├── Utilisateur.java (abstract)
