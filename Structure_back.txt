@@ -1,0 +1,56 @@
+📦 gestion-stock-backend
+├── 📂 src
+│   ├── 📂 main
+│   │   ├── 📂 java
+│   │   │   └── com/gestionstock
+│   │   │       ├── 📂 model        # Entités métier
+│   │   │       │   ├── 📂 utilisateur
+│   │   │       │   │   ├── Utilisateur.java (abstract)
+│   │   │       │   │   ├── Administrateur.java
+│   │   │       │   │   ├── ResponsableApprovisionnement.java
+│   │   │       │   │   ├── ResponsableVentes.java
+│   │   │       │   │   └── Magasinier.java
+│   │   │       │   ├── 📂 produit
+│   │   │       │   │   └── Produit.java
+│   │   │       │   ├── 📂 partenaire
+│   │   │       │   │   ├── Fournisseur.java
+│   │   │       │   │   └── Client.java
+│   │   │       │   ├── 📂 document
+│   │   │       │   │   ├── BonCommande.java
+│   │   │       │   │   ├── LigneCommande.java
+│   │   │       │   │   ├── BonLivraison.java
+│   │   │       │   │   ├── LigneLivraison.java
+│   │   │       │   │   ├── Facture.java
+│   │   │       │   │   ├── BonSortie.java
+│   │   │       │   │   └── LigneSortie.java
+│   │   │       │   ├── 📂 stock
+│   │   │       │   │   ├── MouvementStock.java
+│   │   │       │   │   ├── Inventaire.java
+│   │   │       │   │   └── LigneInventaire.java
+│   │   │       │   └── 📂 systeme
+│   │   │       │       └── Rapport.java
+│   │   │       ├── 📂 dao          # Gestion DB
+│   │   │       │   ├── 📂 interfaces
+│   │   │       │   └── 📂 implementation
+│   │   │       ├── 📂 service      # Logique métier
+│   │   │       ├── 📂 util         # Classes utilitaires
+│   │   │       └── 📂 exception    # Exceptions personnalisées
+│   │   └── 📂 resources
+│   │       └── 📂 config
+│   │           ├── database.properties.example
+│   │           └── application.properties
+│   └── 📂 test                     # Tests unitaires
+├── 📂 database
+│   ├── schema.sql
+│   ├── data.sql
+│   └── README.md
+├── 📂 docs
+│   ├── architecture.md
+│   └── ...
+├── 📂 scripts
+│   ├── build.sh
+│   ├── install.sh
+│   └── test.sh
+├── .gitignore
+├── pom.xml
+└── README.md
