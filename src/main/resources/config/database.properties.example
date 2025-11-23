@@ -1,0 +1,28 @@
+# ===========================================
+# Configuration Base de Données MySQL
+# ===========================================
+# ATTENTION: Copier ce fichier en database.properties
+# et modifier avec vos vraies valeurs
+# NE PAS commiter database.properties sur Git !
+
+# URL de connexion MySQL
+db.url=jdbc:mysql://localhost:3306/gestion_stock?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+
+# Identifiants
+db.username=root
+db.password=VOTRE_MOT_DE_PASSE_ICI
+
+# Driver
+db.driver=com.mysql.cj.jdbc.Driver
+
+# Pool de connexions (HikariCP si utilisé)
+db.pool.minSize=5
+db.pool.maxSize=20
+db.pool.timeout=30000
+db.pool.idleTimeout=600000
+db.pool.maxLifetime=1800000
+
+# Autres paramètres
+db.autoReconnect=true
+db.useUnicode=true
+db.characterEncoding=UTF-8
