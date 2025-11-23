@@ -29,9 +29,11 @@
 │   │   │       │   │   └── LigneInventaire.java
 │   │   │       │   └── 📂 systeme
 │   │   │       │       └── Rapport.java
+│   │   │       │
 │   │   │       ├── 📂 dao          # Gestion DB
 │   │   │       │   ├── 📂 interfaces
 │   │   │       │   └── 📂 implementation
+│   │   │       │
 │   │   │       ├── 📂 service      # Logique métier
 │   │   │       ├── 📂 util         # Classes utilitaires
 │   │   │       └── 📂 exception    # Exceptions personnalisées
@@ -40,6 +42,7 @@
 │   │       └── 📂 config
 │   │           ├── database.properties.example
 │   │           └── application.properties
+│   │
 │   └── 📂 test                     # Tests unitaires
 │       └──.....
 │
@@ -51,12 +54,12 @@
 ├── 📂 docs
 │   ├── architecture.md
 │   └── ...
-
+│
 ├── 📂 scripts
 │   ├── build.sh
 │   ├── install.sh
 │   └── test.sh
-
+│
 ├── .gitignore
 ├── pom.xml
 └── README.md
