@@ -35,22 +35,28 @@
 │   │   │       ├── 📂 service      # Logique métier
 │   │   │       ├── 📂 util         # Classes utilitaires
 │   │   │       └── 📂 exception    # Exceptions personnalisées
+│   │   │
 │   │   └── 📂 resources
 │   │       └── 📂 config
 │   │           ├── database.properties.example
 │   │           └── application.properties
 │   └── 📂 test                     # Tests unitaires
+│       └──.....
+│
 ├── 📂 database
 │   ├── schema.sql
 │   ├── data.sql
 │   └── README.md
+│
 ├── 📂 docs
 │   ├── architecture.md
 │   └── ...
+
 ├── 📂 scripts
 │   ├── build.sh
 │   ├── install.sh
 │   └── test.sh
+
 ├── .gitignore
 ├── pom.xml
 └── README.md
